@@ -3,31 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Temperature Converter</title>
+  <title>Pro Landing Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-  <h1>🌡 Temperature Converter</h1>
+<header class="navbar">
+  <div class="logo">NovaTech</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Pricing</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
 
-  <!-- Input -->
-  <input type="number" id="tempInput" placeholder="Enter temperature">
+<section class="hero">
+  <h1>Build Smarter Digital Experiences</h1>
+  <p>Modern solutions for modern businesses. Fast, scalable, and beautiful.</p>
+  <button>Start Now</button>
+</section>
 
-  <!-- Dropdown -->
-  <select id="unit">
-    <option value="c">Celsius (°C)</option>
-    <option value="f">Fahrenheit (°F)</option>
-    <option value="k">Kelvin (K)</option>
-  </select>
+<section class="services">
+  <h2>Our Services</h2>
+  <div class="cards">
 
-  <!-- Button -->
-  <button onclick="convertTemp()">Convert</button>
+    <div class="card">
+      <h3>Web Development</h3>
+      <p>Responsive and high-performance websites.</p>
+    </div>
 
-  <!-- Output -->
-  <div id="result">Result will appear here</div>
-</div>
+    <div class="card">
+      <h3>UI/UX Design</h3>
+      <p>Clean and user-focused interface designs.</p>
+    </div>
 
-<script src="script.js"></script>
+    <div class="card">
+      <h3>Cloud Solutions</h3>
+      <p>Scalable and secure cloud systems.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Ready to Grow?</h2>
+  <button>Get Started</button>
+</section>
+
+<footer>
+  <p>© 2026 NovaTech | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>

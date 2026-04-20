@@ -3,31 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Temperature Converter</title>
+  <title>Ferdinanto Varghese | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-  <h1>🌡 Temperature Converter</h1>
+<!-- Navbar -->
+<header class="navbar">
+  <h2 class="logo">Ferdinanto Varghese</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <!-- Input -->
-  <input type="number" id="tempInput" placeholder="Enter temperature">
+<!-- Hero Section -->
+<section class="hero" id="about">
+  <div class="hero-content">
+    <img src="fprofile.jpg" alt="profile">
+    <h1>Hello, I'm Ferdinanto Varghese 👋</h1>
+    <p>A passionate Mechanical Engineering student.</p>
+    <div class="buttons">
+      <a href="resume.pdf" class="btn">Download Resume</a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
+  </div>
+</section>
 
-  <!-- Dropdown -->
-  <select id="unit">
-    <option value="c">Celsius (°C)</option>
-    <option value="f">Fahrenheit (°F)</option>
-    <option value="k">Kelvin (K)</option>
-  </select>
+<!-- Skills -->
+<section class="skills" id="skills">
+  <h2>My Skills</h2>
+  <div class="skill-cards">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Git</div>
+  </div>
+</section>
 
-  <!-- Button -->
-  <button onclick="convertTemp()">Convert</button>
+<!-- Projects -->
+<section class="projects" id="projects">
+  <h2>Projects</h2>
+  <div class="project-container">
 
-  <!-- Output -->
-  <div id="result">Result will appear here</div>
-</div>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Modern responsive portfolio using HTML & CSS.</p>
+    </div>
 
-<script src="script.js"></script>
+    <div class="project-card">
+      <h3>Landing Page</h3>
+      <p>Professional landing page with clean UI.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: yourmail@gmail.com</p>
+  <p>Phone: +91 XXXXXXXXXX</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Ferdinanto Varghese| All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
